@@ -1,3 +1,9 @@
-.random{
-    color:blueviolet;
+.main-header{
+    background-color: rgb(75, 213, 218);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100px;
+    text-align: center;
+    text-emphasis: bold;
+    
 }
