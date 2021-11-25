@@ -1,7 +1,36 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
 .main-header{
-    background-color: rgb(75, 213, 218);
+    background-color:#FC766AFF;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    height:100px;
     text-align: center;
     text-emphasis: bold;
+    line-height: 600%;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.navbar a{
+    display: block;
+    width:11%;
+    padding:8px 16px;
+    background-color: #434242;
+    color:rgb(245, 245, 245);
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:rgba(245, 245, 245, 0.356);
+}  
+.navbar a:focus{
+    background-color:#FC766AFF ;
+    color:rgb(245, 245, 245)
+}
+
+  
