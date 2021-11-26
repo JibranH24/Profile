@@ -2,8 +2,9 @@
     box-sizing:border-box;
     padding:0px;
     margin:0px;
-
 }
+
+
 body {
     background-color: rgb(245, 245, 245);
 }
@@ -13,6 +14,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     text-align: center;
+    vertical-align: middle;
     text-emphasis: bold;
     padding:3em;
     
@@ -21,10 +23,11 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: futura Arial, Helvetica, sans-serif;
     position:fixed;
     background-color: #434242;
     right:7px;
+    z-index:100;
 }
 .navbar li{
     list-style-type: none;
@@ -53,6 +56,14 @@ body {
 }
 .project-box {
     background-color: rgb(215, 216, 216);
-    width:35em;
-    height:20em;
+    width:25em;
+    height:10em;
 } 
+.project-section-one {
+    display:flex;
+    gap:5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+    
+}
