@@ -5,27 +5,40 @@
 }
 
 
-body {
-    background-color: rgb(245, 245, 245);
+
+
+.subheadings{
+    text-align: center;
+    font-size:32px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#66fcf1
+    
+}
+.h-3-s{
+    color:#45a29e;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .main-header{
-    background-color:#FC766AFF;
-    color:white;
+    background-color:#1f2833;
+    color:#66fcf1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 2.7em;
     text-align: center;
     vertical-align: middle;
-    text-emphasis: bold;
-    padding:3em;
+    padding:10em;
+    width:100vw;
+    height:100vh;
+   
     
 }
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: futura Arial, Helvetica, sans-serif;
-    position:fixed;
-    background-color: #434242;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    background-color: #0b0c10;
     right:7px;
     z-index:100;
 }
@@ -37,7 +50,7 @@ body {
     text-align: center;
     padding:8px 16px;
     
-    color:rgb(245, 245, 245);
+    color:#c5c6c7;
     text-align: center;
     text-decoration: none;
 }
@@ -46,13 +59,19 @@ body {
     
 }  
 .navbar a:focus{
-    background-color:#FC766AFF ;
+    background-color:#45a29e ;
     color:rgb(245, 245, 245)
 }
-.subheadings{
-    text-align: center;
-    font-size:32px;
-    
+.profile-section{
+    background-color:#45a29e ;
+    width:100vw;
+    height:80vh;
+
+}
+.projects-section{
+    width:100vw;
+    height: 80vh;
+    background-color: #1f2833;
 }
 .project-box {
     background-color: rgb(215, 216, 216);
@@ -61,9 +80,20 @@ body {
 } 
 .project-section-one {
     display:flex;
-    gap:5em;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    
-    
+    gap:10em;
+}    
+.experience-section{
+    background-color: #45a29e;
+    width:100vw;
+    height:80vh;
+}   
+.abilities-section{
+    background-color: #1f2833;
+    width:100vw;
+    height:80vh;
+}    
+.contact-section{
+    background-color: #0b0c10;
+    width:100vw;
+    height:50vh;
 }
