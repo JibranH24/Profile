@@ -31,7 +31,7 @@ body {
 }
 .navbar a{
     display: block;
-    width:11%;
+    text-align: center;
     padding:8px 16px;
     
     color:rgb(245, 245, 245);
@@ -40,10 +40,19 @@ body {
 }
 .navbar a:hover{
     color:rgba(245, 245, 245, 0.356);
+    
 }  
 .navbar a:focus{
     background-color:#FC766AFF ;
     color:rgb(245, 245, 245)
 }
-
-  
+.subheadings{
+    text-align: center;
+    font-size:32px;
+    
+}
+.project-box {
+    background-color: rgb(216, 216, 216);
+    width:35em;
+    height:20em;
+} 
