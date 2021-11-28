@@ -3,21 +3,33 @@
     padding:0px;
     margin:0px;
 }
+body{
+    position: relative;
+}
+#sub-writings{
+    color:#c5c6c7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
 
-
+}
 
 
 .subheadings{
     text-align: center;
-    font-size:32px;
+    font-size:4em;
     font-family:Arial, Helvetica, sans-serif;
-    color:#66fcf1
+    color:#66fcf1;
+    padding-top: 0.7em;
     
 }
 .h-3-s{
     color:#45a29e;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+.h-3-s-inblue{
+    color: #66fcf1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .main-header{
     background-color:#1f2833;
@@ -34,12 +46,15 @@
 }
 .navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    border-radius: 0.3em;
     font-family: Arial, Helvetica, sans-serif;
-    ;
     background-color: #0b0c10;
-    right:7px;
+    width:9em;
+    height: 25.625em;
+    
+    position: absolute;
+    right:2em;
+    ;
     z-index:100;
 }
 .navbar li{
@@ -48,7 +63,7 @@
 .navbar a{
     display: block;
     text-align: center;
-    padding:8px 16px;
+    padding:2em 16px;
     
     color:#c5c6c7;
     text-align: center;
@@ -59,7 +74,7 @@
     
 }  
 .navbar a:focus{
-    background-color:#45a29e ;
+    background-color:#6cf7f0 ;
     color:rgb(245, 245, 245)
 }
 .profile-section{
@@ -67,6 +82,19 @@
     width:100vw;
     height:80vh;
 
+}
+.profile-organise{
+    display:flex;
+    gap:1em;
+    
+     
+    
+}
+img.resize {
+    width:246px; 
+    height:246px;
+    border:19px solid #6cf7f0;
+    border-radius: 100px;
 }
 .projects-section{
     width:100vw;
