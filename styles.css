@@ -109,24 +109,31 @@ img.resize {
 .projects-section{
     width:100vw;
     height: 120vh;
-    background-color: #1f2833;
-}
-.project-box {
-    background-color: rgb(215, 216, 216);
-    width:40em;
-    height:25em;
-} 
-.project-section-one {
-    display:flex;
-    gap:50em;
+    background-color: #1f2833; 
     
-    padding: 5em 7em;
-}   
-.project-section-two{
-    display:flex;
-    gap:10em;
-    padding-left:7em;
-} 
+}
+.project-flex-container{
+    display: flex;
+  flex-wrap: wrap;
+  gap:5vw;
+  background-color: yellow;
+  justify-content: center;
+}
+
+
+.flex-item {
+    
+  flex:1;
+  padding: 1em;
+  font-size:2vh;
+  text-align: center;
+  /* width:30vw; */
+  color:gray;
+}
+#number-guesser{
+    width:25vw;
+    height:20vh;
+}
 .experience-section{
     background-color: rgb(245, 245, 245);
     width:100vw;
