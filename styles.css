@@ -116,7 +116,7 @@ img.resize {
     display: flex;
   flex-wrap: wrap;
   gap:5vw;
-  background-color: yellow;
+  /* background-color: yellow; */
   justify-content: center;
 }
 
