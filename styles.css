@@ -6,19 +6,20 @@
 body{
     position: relative;
     overflow-x: hidden;
+    font-size: 2vh;
     
 }
 #sub-writings{
     color:gray;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 
 }
 
 
 .subheadings{
     text-align: center;
-    font-size:4em;
+    /* font-size:4em; */
     font-family:Arial, Helvetica, sans-serif;
     color:#45a29e;
     padding-top: 0.7em;
@@ -37,7 +38,7 @@ body{
     background-color:#1f2833;
     color:#66fcf1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    /* font-size: 2em; */
     text-align: center;
     vertical-align: middle;
     padding-top: 15em;
@@ -87,10 +88,17 @@ body{
 }
 .profile-organise{
     display:flex;
-    gap:1em;
-    
+    /* gap:1em; */
+    justify-content: space-evenly;
      
     
+}
+.about-sections{
+    width:15vw;
+
+
+
+
 }
 img.resize {
     width:246px; 
