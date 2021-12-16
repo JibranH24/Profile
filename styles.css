@@ -19,7 +19,7 @@ body{
 
 .subheadings{
     text-align: center;
-    /* font-size:4em; */
+    font-size:4rem;
     font-family:Arial, Helvetica, sans-serif;
     color:#45a29e;
     padding-top: 0.7em;
@@ -35,19 +35,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .main-header{
+    display:flex;
+    flex-direction: column;
     background-color:#1f2833;
     color:#66fcf1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size: 6vh;
     text-align: center;
-    vertical-align: middle;
-    padding-top: 15em;
-    padding-bottom: 15em;
     width:100vw;
     height:100vh;
    
     
 }
+#jh-sd{
+    position:relative;
+    top:40%;
+
+}
+
 .navbar {
     list-style-type: none;
     border-radius: 0.3em;
@@ -130,9 +135,11 @@ img.resize {
   /* width:30vw; */
   color:gray;
 }
-#number-guesser{
+#project-screenshot{
     width:25vw;
-    height:20vh;
+    height:25vh;
+    border-radius: 5px;
+    
 }
 .experience-section{
     background-color: rgb(245, 245, 245);
