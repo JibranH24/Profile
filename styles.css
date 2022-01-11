@@ -28,7 +28,7 @@ body{
 
 .subheadings{
     text-align: center;
-    font-size:4rem;
+    font-size:7vh;
     
     color:#45a29e;
     padding-top: 0.9em;
@@ -134,8 +134,8 @@ body{
 
 }
 img.resize {
-    width:30rem; 
-    height:25rem;
+    width:30vw; 
+    /* height:25rem; */
     border:19px solid rgb(69, 161, 156);
     border-radius: 30px;
 }
@@ -168,7 +168,7 @@ img.resize {
   padding: 1em;
   font-size:2vh;
   text-align: center;
-  /* width:30vw; */
+   /* width:30vw;  */
   color:gray;
 }
 #para-sub-writings{
@@ -181,8 +181,8 @@ img.resize {
 
 
 #project-screenshot{
-    width:30rem;
-    height:17rem;
+    width:25vw;
+    height:25vh;
     border-radius: 5px;
     box-shadow: rgb(202, 202, 202) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    
 }
@@ -288,7 +288,7 @@ img.resize {
     }
     img.resize{
         width:15rem; 
-    height:12.5rem;
+    /* height:12.5rem; */
     }
     .abilityList{
         font-size: 1em;
