@@ -52,16 +52,16 @@ body{
     background-size:cover
 }
 .aboveAbilities{
-    background-image: url("./aboveAbilitiesSection.svg");
+    background-image: url("svg/aboveAbilitiesSection.svg");
 }
 .aboveContact{
-    background-image: url("./aboveContactSection.svg");
+    background-image: url("svg/aboveContactSection.svg");
 }
 .aboveExperience{
-    background-image: url("./aboveExperienceSection.svg");
+    background-image: url("svg/aboveExperienceSection.svg");
 }
 .aboveProjects{
-    background-image: url("./aboveProjectsSection.svg");
+    background-image: url("svg/aboveProjectsSection.svg");
 }
 .main-header{
     display:flex;
